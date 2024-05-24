@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bookmark</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Fontawesome -->
+<link rel="stylesheet" href="css/all.min.css">
+
+<!-- My style -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <section id="bookmarker">
+        <div class="container">
+
+            <div class="text-center">
+                <h1 class="py-5">Bookmarker</h1>
+                <h2 class="my-5"><i class="fa-solid fa-bookmark me-2"></i>Bookmark your <span>favourite sites<i class="fa-solid fa-bookmark ms-2"></i></span></h2>
+            </div>
+
+            <i class="fa-solid fa-book-bookmark ms-5"></i>
+            <label for="siteName" class="fw-bold">Site Name</label>
+            <input id="siteName" type="text" class="form-control mx-5 my-3" placeholder="Bookmark Name">
+
+            <i class="fa-solid fa-link ms-5"></i>
+            <label for="siteURL" class="fw-bold">Site URL</label>
+            <input id="siteURL" type="text" class="form-control mx-5 my-3" placeholder="Website URL">
+
+            <button id="addWebsite" class="btn btn-danger px-5 d-block m-auto my-4" >Submit</button>
+            
+            <div class="dotted-line mb-5"></div>
+
+
+            <table class="table text-center m-auto my-5">
+                <thead class="fw-bold">
+                    <tr>
+                        <td>Index</td>
+                        <td>Website Name</td>
+                        <td>Visit</td>
+                        <td>Delete</td>
+                    </tr>
+                </thead>
+
+                <tbody id="tableData">
+                    
+                </tbody>
+            </table>
+        </div>
+
+
+
+  
+  <!-- Modal -->
+<div id="modalMsg"></div>
+
+
+<!-- <div class="dottes bg-warning rounded-circle">
+
+</div> -->
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- My JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

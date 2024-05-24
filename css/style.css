@@ -1,0 +1,60 @@
+
+body{
+    background-color: #F7ECDE;
+}
+
+h1, .dotted-line{
+    border-bottom: 2px dotted #333;
+}
+
+h2{
+    color: #3FA55C;
+}
+
+h2 span{
+    color: #B3AC49;
+}
+
+table{
+    --bs-table-bg: #F8F9FA !important;
+}
+
+.dottes{
+    width: 20px;
+    height: 20px;
+    position: relative;
+margin-left: 50px;
+}
+
+.dottes::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.dottes::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 30px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+
+.modal{
+    --bs-modal-header-border-color: transparent;
+    --bs-modal-footer-border-color: transparent;
+
+}
+
+.modal i{
+    color: red;
+}
+
